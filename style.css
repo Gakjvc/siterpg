@@ -40,7 +40,11 @@
         height: 600px;
     }
 }
+.presentation{
+    justify-content: center;
+}
 
 html{
+    font-family: serif;
     background-color: #d99d29;
 }
