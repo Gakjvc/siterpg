@@ -45,6 +45,7 @@
 }
 
 html{
+    justify-content: center;
     font-family: serif;
     background-color: #d99d29;
 }
