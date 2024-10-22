@@ -1,6 +1,21 @@
-iframe{
-    width: 2000px;
-    height: 720px;
+.responsive-iframe {
+    border: 0;
+    width: 100%;
+    height: 500px; /* Altura padrão para telas maiores */
+}
+
+/* Adaptar para telas menores (mobile) */
+@media (max-width: 768px) {
+    .responsive-iframe {
+        height: 100vh; /* Ajusta para ocupar a altura total da tela */
+    }
+}
+
+/* Estilos para telas maiores (desktop) */
+@media (min-width: 769px) {
+    .responsive-iframe {
+        height: 600px; /* Altura maior para telas maiores */
+    }
 }
 html{
     background-color: #d99d29;
