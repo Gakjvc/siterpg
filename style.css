@@ -47,7 +47,10 @@
     margin-right: auto;
 }
 .footnote{
-    justify-content: left;
+    justify-content: left; 
+    max-width: fit-content;
+    margin-left: 10px;
+    margin-right: auto;
 }
 html{
     font-family: serif;
