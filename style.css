@@ -51,8 +51,11 @@
     max-width: fit-content;
     margin-left: 10px;
     margin-right: auto;
+    float: right;
 }
+@font-face { font-family: exocet; src: url('exocet-heavy.ttf'); } 
 html{
-    font-family: serif;
+    
+    font-family: exocet;
     background-color: #d99d29;
 }
