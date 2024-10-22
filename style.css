@@ -5,8 +5,8 @@
     height: 500px;
     position: relative;
     background-color: white; /* Cor de fundo para destacar o efeito */
-    box-shadow: -5px -5px 0px rgba(0, 0, 0, 0.3), 5px 5px 0px rgba(0, 0, 0, 0.3), 
-                inset -5px -5px 10px rgba(0, 0, 0, 0.2), inset 5px 5px 10px rgba(0, 0, 0, 0.2); /* Rugged edges */
+    box-shadow: -5px -5px 0px rgba(0, 0, 0, 0.986), 5px 5px 0px rgb(0, 0, 0), 
+                inset -5px -5px 10px rgb(0, 0, 0), inset 5px 5px 10px rgb(0, 0, 0); /* Rugged edges */
     z-index: 1;
 }
 
@@ -18,10 +18,10 @@
     left: -10px;
     right: -10px;
     bottom: -10px;
-    border: 2px solid rgba(0, 0, 0, 0.4);
+    border: 2px solid rgb(0, 0, 0);
     z-index: -1;
-    box-shadow: -5px 5px 0px rgba(0, 0, 0, 0.3), 5px -5px 0px rgba(0, 0, 0, 0.3), 
-                inset -3px 3px 5px rgba(0, 0, 0, 0.3), inset 3px -3px 5px rgba(0, 0, 0, 0.3); /* Efeito de borda irregular */
+    box-shadow: -5px 5px 0px rgb(0, 0, 0), 5px -5px 0px rgb(0, 0, 0), 
+                inset -3px 3px 5px rgba(0, 0, 0, 0.925), inset 3px -3px 5px rgb(0, 0, 0); /* Efeito de borda irregular */
 }
 
 /* Adaptar para telas menores (mobile) */
