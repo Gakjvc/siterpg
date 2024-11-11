@@ -98,9 +98,12 @@
   }
   .poster-fill-in{
     font-weight: bold;
+    flex-direction: row;
   }
   .poster-filler{
     text-align: left;
+    font-weight: normal;
+    flex-direction: row-reverse;
   }
   .poster-subtitle{
     text-align: center;
