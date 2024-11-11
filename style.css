@@ -99,11 +99,13 @@
   .poster-fill-in{
     font-weight: bold;
     flex-direction: row;
+    padding-left: 10px;
   }
   .poster-filler{
     font-weight: normal;
     text-align: left;
     flex-direction: row-reverse;
+    padding-right: 10px;
   }
   .poster-subtitle{
     font-weight: normal;
