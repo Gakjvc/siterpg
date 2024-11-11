@@ -57,10 +57,23 @@
 .gallery {
     display: grid;
     gap: 16px;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(4, 1fr); /* Define quatro colunas */
     padding: 20px;
     max-width: 1200px;
     margin: auto;
+  }
+
+  /* Ajuste para dispositivos móveis */
+  @media (max-width: 768px) {
+    .gallery {
+      grid-template-columns: repeat(2, 1fr); /* Duas colunas em telas menores */
+    }
+  }
+
+  @media (max-width: 480px) {
+    .gallery {
+      grid-template-columns: 1fr; /* Uma coluna em telas bem pequenas */
+    }
   }
 
   /* Estilo para cada cartaz */
