@@ -76,7 +76,7 @@
   .poster img {
     width: 100%;
     display: block;
-    border-radius: 25%;
+    border-radius: 0% 0% 20% 20%;
   }
 
   /* Efeito de hover no cartaz */
@@ -101,11 +101,12 @@
     flex-direction: row;
   }
   .poster-filler{
-    text-align: left;
     font-weight: normal;
+    text-align: left;
     flex-direction: row-reverse;
   }
   .poster-subtitle{
+    font-weight: normal;
     padding-top: 10px;
     text-align: center;
   }
