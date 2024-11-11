@@ -125,26 +125,8 @@
     font-weight: normal;
     padding-top: 10px;
     text-align: center;
-    
-    max-height: 60px; /* Altura inicial limitada */
-    overflow: hidden;
-    transition: max-height 0.5s ease;
   }
 
-  /* Botão de ler mais */
-  .read-more-btn {
-    color: #007BFF;
-    background: none;
-    border: none;
-    cursor: pointer;
-    font-weight: bold;
-    margin-top: 8px;
-  }
-
-  /* Classe para expandir o subtítulo */
-  .expanded {
-    max-height: 500px; /* Altura maior para o texto completo */
-  }
 
 @font-face { font-family: exocet; src: url('src/exocet-heavy.ttf'); } 
 html{
