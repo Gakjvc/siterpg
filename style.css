@@ -90,8 +90,17 @@
     font-weight: bold;
     text-align: center;
   }
-  .poster-fill-ins{
+  .poster-info {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1em;
+    padding: 4px 0;
+  }
+  .poster-fill-in{
     font-weight: bold;
+  }
+  .poster-filler{
+    text-align: left;
   }
   .poster-subtitle{
     text-align: center;
