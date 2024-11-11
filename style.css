@@ -90,6 +90,9 @@
     font-weight: bold;
     text-align: center;
   }
+  .poster-subtitle{
+    text-align: center;
+  }
 
 @font-face { font-family: exocet; src: url('exocet-heavy.ttf'); } 
 html{
