@@ -53,6 +53,44 @@
     margin-right: auto;
     float: right;
 }
+/* chatgpt */
+.gallery {
+    display: grid;
+    gap: 16px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+  }
+
+  /* Estilo para cada cartaz */
+  .poster {
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+
+  /* Imagem do cartaz */
+  .poster img {
+    width: 100%;
+    display: block;
+  }
+
+  /* Efeito de hover no cartaz */
+  .poster:hover {
+    transform: scale(1.05);
+  }
+
+  /* Texto do cartaz */
+  .poster .poster-title {
+    padding: 16px;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+  }
+
 @font-face { font-family: exocet; src: url('exocet-heavy.ttf'); } 
 html{
     
