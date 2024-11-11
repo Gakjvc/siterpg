@@ -1,5 +1,5 @@
 function toggleReadMore(button) {
-    const subtitle = button.previousElementSibling;
+    const subtitle = button.parentElement.previousElementSibling; // Seleciona o subtítulo do mesmo poster
     subtitle.classList.toggle("expanded");
 
     if (subtitle.classList.contains("expanded")) {
