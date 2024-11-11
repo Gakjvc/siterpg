@@ -70,14 +70,14 @@
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.2s;
-    border-color: chocolate;
+    
   }
 
   /* Imagem do cartaz */
   .poster img {
     width: 100%;
     display: block;
-    border-radius: 0% 0% 20% 20%;
+    border-radius: 0% 0% 15% 15%;
   }
 
   /* Efeito de hover no cartaz */
