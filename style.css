@@ -76,6 +76,7 @@
   .poster img {
     width: 100%;
     display: block;
+    border-radius: 15%;
   }
 
   /* Efeito de hover no cartaz */
@@ -87,7 +88,6 @@
   .poster .poster-title {
     padding: 16px;
     font-size: 1.2em;
-    font-weight: bold;
     text-align: center;
   }
   .poster-info {
