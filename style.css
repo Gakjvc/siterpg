@@ -49,7 +49,6 @@
   .poster {
     background-color:var(--background);
     border-radius: 8px;
-    overflow: hidden;
 
     perspective: 1000px; /* Define a perspectiva para o efeito 3D */
     position: relative;
@@ -92,7 +91,6 @@
   /* Estilo da frente do cartaz */
   .poster-front {
     background-color: white;
-    display: flex;
     flex-direction: column;
   }
 
