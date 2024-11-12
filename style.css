@@ -1,5 +1,6 @@
 :root{
     --edge : #99690a;
+    --background : #d99d29;
 }
 
 /* Adaptar para telas menores (mobile) */
@@ -46,7 +47,7 @@
 
   /* Estilo para cada cartaz */
   .poster {
-    background-color: var(--edge);
+    background-color:var(--background);
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -166,5 +167,5 @@
 html{
     
     font-family: exocet;
-    background-color: #d99d29;
+    background-color: var(--background);
 }
