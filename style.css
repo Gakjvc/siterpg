@@ -46,7 +46,7 @@
 
   /* Estilo para cada cartaz */
   .poster {
-    background-color: white;
+    background-color: var(--edge);
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -98,11 +98,12 @@
   .poster-front {
     background-color: white;
     display: flex;
+    flex-direction: column;
   }
 
   /* Estilo do verso do cartaz */
   .poster-back {
-    background-color: #85f802;
+    background-color: white;
     transform: rotateY(180deg); /* Rotaciona o verso 180 graus */
     display: flex;
     flex-direction: column;
