@@ -87,6 +87,13 @@
     top: 0;
     left: 0;
     transform: rotateY(0deg); /* Define a rotação inicial */
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box
   }
 
   /* Estilo da frente do cartaz */
