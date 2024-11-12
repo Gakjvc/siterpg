@@ -51,7 +51,10 @@
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.2s;
-    
+
+    perspective: 1000px; /* Define a perspectiva para o efeito 3D */
+    position: relative;
+    width: 100%;
   }
 
   /* Imagem do cartaz */
@@ -65,9 +68,65 @@
   .poster:hover {
     transform: scale(1.05);
   }
+  
+  .poster-inner {
+    width: 100%;
+    transform-style: preserve-3d;
+    transition: transform 0.8s;
+    position: relative;
+  }
+
+  /* Frente e verso do cartaz */
+  .poster-front, .poster-back {
+    backface-visibility: hidden;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Estilo da frente do cartaz */
+  .poster-front {
+    background-color: white;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Estilo do verso do cartaz */
+  .poster-back {
+    background-color: #f8f8f8;
+    padding: 16px;
+    transform: rotateY(180deg); /* Rotaciona o verso 180 graus */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  /* Classe para girar o cartaz */
+  .flipped .poster-inner {
+    transform: rotateY(180deg);
+  }
+
+  .flip-btn {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background: none;
+    border: none;
+    font-size: 1.5em;
+    color: #007BFF;
+    cursor: pointer;
+    z-index: 2;
+  }
 
   /* Texto do cartaz */
-  .poster .poster-title {
+   .poster-title {
     padding: 16px;
     font-size: 1.2em;
     text-align: center;

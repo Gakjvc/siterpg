@@ -15,29 +15,41 @@
         <div class="gallery">
             <!-- Cartaz 1 -->
             <div class="poster">
-                <img src="src/saur.jpg" alt="Cartaz 1">
-                <div class="poster-title">Saur Vargach</div>
-                <!-- Nível -->
-                <div class="poster-info">
+              <div class="poster-inner">
+        
+                <!-- Frente do Cartaz -->
+                <div class="poster-front">
+                  <button class="flip-btn" onclick="flipCard(this)">⟳</button>
+                  <img src="src/img4.1.jpg" alt="Cartaz 1" style="width: 100%; border-radius: 8px;">
+                  <div class="poster-title">Saur Vargach</div>
+
+                  <div class="poster-info">
                     <div class="poster-fill-in">Nível:</div>
                     <div class="poster-filler">1</div>
-                </div>
-                
-                <!-- Classe -->
-                <div class="poster-info">
-                  <div class="poster-fill-in">Classe:</div>
-                  <div class="poster-filler">Druida</div>
-                </div>
-          
-                <!-- Raça -->
-                <div class="poster-info">
-                  <div class="poster-fill-in">Raça:</div>
-                  <div class="poster-filler">Homem-Lagarto</div>
-                </div>
+                  </div>
+                  <div class="poster-info">
+                    <div class="poster-fill-in">Classe:</div>
+                    <div class="poster-filler">Druida</div>
+                  </div>
+                  <div class="poster-info">
+                    <div class="poster-fill-in">Raça:</div>
+                    <div class="poster-filler">Homem-Lagarto</div>
+                  </div>
 
-                <div class="poster-subtitle" id="poster-subtitle">
-                    Um perigoso Homem-Lagarto que busca garantir sua sobrevivência sendo um avatar para as forças da natureza.
+                  <div class="poster-subtitle" id="poster-subtitle">
+                    Um bárbaro que busca uma morte digna e redenção pelas atrocidades cometidas no passado.
+                  </div>
+                  
                 </div>
+        
+                <!-- Verso do Cartaz -->
+                <div class="poster-back">
+                  <h2>Mais Informações</h2>
+                  <p>Descrição detalhada do personagem, incluindo habilidades especiais, história e outras características.</p>
+                  <button class="flip-btn" onclick="flipCard(this)">⟳</button>
+                </div>
+        
+              </div>
                 
             <!-- Fim do cartaz 1 -->
             </div>
