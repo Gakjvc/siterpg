@@ -100,7 +100,6 @@
   .poster-front {
     background-color: white;
     display: flex;
-    flex-direction: column;
   }
 
   /* Estilo do verso do cartaz */
@@ -108,7 +107,6 @@
     background-color: #f8f8f8;
     transform: rotateY(180deg); /* Rotaciona o verso 180 graus */
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
