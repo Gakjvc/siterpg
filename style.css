@@ -71,17 +71,17 @@
     position: relative;
     width: 100%;
     transform-style: preserve-3d;
-    transition: transform 0.8s;
     height: 100%;
+    transition: transform 0.8s;
     /* Garantir que o contêiner para flipagem ocupe todo o espaço do cartaz */
   }
   
   /* Frente e verso do cartaz */
   .poster-front, .poster-back {
-    backface-visibility: hidden;
     position: absolute;
     width: 100%;
     height: 100%;
+    backface-visibility: hidden;
     transform: rotateY(0deg); /* Define a rotação inicial */
     padding: 0;
     text-align: center;
