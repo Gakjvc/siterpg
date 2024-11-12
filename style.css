@@ -100,6 +100,7 @@
   .poster-front {
     background-color: white;
     display: flex;
+    flex-direction: column;
   }
 
   /* Estilo do verso do cartaz */
@@ -107,6 +108,7 @@
     background-color: #f8f8f8;
     transform: rotateY(180deg); /* Rotaciona o verso 180 graus */
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -141,15 +143,14 @@
     font-size: 1em;
     padding: 4px 0;
   }
-  .poster-fill-in{
+  
+  .poster-fill-in {
     font-weight: bold;
-    flex-direction: row;
     padding-left: 10px;
   }
-  .poster-filler{
+  
+  .poster-filler {
     font-weight: normal;
-    text-align: left;
-    flex-direction: row-reverse;
     padding-right: 10px;
   }
   .poster-subtitle{
