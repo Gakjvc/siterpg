@@ -98,7 +98,6 @@
   .poster-front {
     background-color: white;
     display: flex;
-    flex-direction: column;
   }
 
   /* Estilo do verso do cartaz */
