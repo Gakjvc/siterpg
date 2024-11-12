@@ -48,7 +48,7 @@
   /* Estilo para cada cartaz */
   .poster {
     background-color:var(--background);
-    border-radius: 0px;
+    border-radius: 8px;
     overflow: hidden;
 
     perspective: 1000px; /* Define a perspectiva para o efeito 3D */
