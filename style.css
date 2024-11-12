@@ -80,12 +80,13 @@
   
   /* Frente e verso do cartaz */
   .poster-front, .poster-back {
+    backface-visibility: hidden;
     position: absolute;
     width: 100%;
-    height: 100%; /* Garantir que a frente e o verso ocupem todo o espaço do contêiner */
-    backface-visibility: hidden;
+    height: 100%;
     top: 0;
     left: 0;
+    transform: rotateY(0deg); /* Define a rotação inicial */
   }
 
   /* Estilo da frente do cartaz */
