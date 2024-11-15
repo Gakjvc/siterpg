@@ -155,7 +155,21 @@
     padding-top: 10px;
     text-align: center;
   }
-
+  .materials{
+    display: grid;
+    gap: 16px;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  .material:hover {
+    transform: scale(1.05);
+  }
+  .material img{
+    width: 300px;
+    height: 300px;
+  }
 
 @font-face { font-family: exocet; src: url('src/exocet-heavy.ttf'); } 
 html{
