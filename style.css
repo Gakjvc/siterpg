@@ -53,6 +53,8 @@
 
   /* Estilo para cada cartaz */
   .poster {
+    width: 275px;
+    height: 500px;
     background-color: var(--background);
     border-radius: 8px;
     perspective: 1000px; 
@@ -80,7 +82,8 @@
   
   /* Frente e verso do cartaz */
   .poster-front, .poster-back {
-    position: absolute;
+    border-radius: 8px;
+    position: relative;
     width: 100%;
     height: 100%;
     backface-visibility: hidden;
@@ -100,6 +103,7 @@
   .poster-back {
     background-color: white;
     transform: rotateY(180deg); /* Rotaciona o verso 180 graus */
+    bottom: 520px;
   }
 
   /* Classe para girar o cartaz */
