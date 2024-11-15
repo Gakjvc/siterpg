@@ -61,9 +61,10 @@
   }
   /* Imagem do cartaz */
   .poster img {
+    height: 270px;
     width: 100%;
     display: block;
-    border-radius: 0% 0% 15% 15%;
+    border-radius: 8px 8px 15% 15%;
   }
 
   /* Efeito de hover no cartaz */
