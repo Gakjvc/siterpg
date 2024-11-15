@@ -23,14 +23,14 @@
     margin-right: auto;
 }
 /* chatgpt */
-  .gallery {
-  display: flex; /* Substituir grid por flex */
-  flex-wrap: wrap;
-  gap: 16px;
-  padding: 20px;
-  max-width: 1200px;
-  margin: auto;
-  justify-content: center;
+ .gallery {
+    display: flex;
+    flex-wrap: wrap; /* Permite que as cartas passem para a próxima linha quando necessário */
+    gap: 16px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+    justify-content: center; /* Centraliza os itens */
   }
   
 
@@ -40,11 +40,17 @@
       flex-direction: row;
       justify-content: space-around; 
     }
+    .poster {
+      width: calc(50% - 16px); /* Ajusta para 2 cartas por linha em telas menores */
+    }
   }
 
   @media (max-width: 480px) {
     .gallery {
       grid-template-columns: 1fr; /* Uma coluna em telas bem pequenas */
+    }
+    .poster {
+      width: 100%; /* Uma carta por linha em telas bem pequenas */
     }
   }
 
@@ -53,11 +59,11 @@
     background-color: var(--background);
     border-radius: 8px;
     perspective: 1000px;
-    width: 100%;
-    max-width: 300px; /* Limita a largura da carta para layout flexível */
+    width: calc(25% - 16px); /* Ajusta a largura para caber 4 cartas por linha */
+    max-width: 300px; /* Limite para telas maiores */
     height: auto;
     position: relative;
-  }
+}
   /* Imagem do cartaz */
   .poster img {
     width: 100%;
