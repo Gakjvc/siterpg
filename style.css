@@ -1,6 +1,7 @@
 :root{
     --edge : #99690a;
     --background : #d99d29;
+    --cards : white;
 }
 
 /* Adaptar para telas menores (mobile) */
@@ -96,13 +97,13 @@
 
   /* Estilo da frente do cartaz */
   .poster-front {
-    background-color: white;
+    background-color: var(--cards);
     flex-direction: column;
   }
 
   /* Estilo do verso do cartaz */
   .poster-back {
-    background-color: white;
+    background-color: var(--cards);
     transform: rotateY(180deg); /* Rotaciona o verso 180 graus */
     bottom: 520px;
   }
@@ -162,18 +163,21 @@
     padding: 20px;
     max-width: 1200px;
     margin: auto;
+    place-items: center;
   }
   .material:hover {
     transform: scale(1.05);
   }
   .material img{
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 250px;
+    padding: 5px;
+    border-radius: 8%;
+    background-color: black;
   }
 
 @font-face { font-family: exocet; src: url('src/exocet-heavy.ttf'); } 
 html{
-    
-    font-family: exocet;
-    background-color: var(--background);
+  font-family: exocet;
+  background-color: var(--background);
 }
