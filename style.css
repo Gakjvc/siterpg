@@ -23,15 +23,15 @@
     margin-right: auto;
 }
 /* chatgpt */
- .gallery {
-    display: flex;
-    flex-wrap: wrap; /* Permite que as cartas passem para a próxima linha quando necessário */
-    gap: 16px;
-    padding: 20px;
-    max-width: 1200px;
-    margin: auto;
-    justify-content: center; /* Centraliza os itens */
-  }
+  .gallery {
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 24px; /* Aumentar o espaçamento entre as cartas */
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+  justify-content: center;
+  } 
   
 
   /* Ajuste para dispositivos móveis */
@@ -59,11 +59,12 @@
     background-color: var(--background);
     border-radius: 8px;
     perspective: 1000px;
-    width: calc(25% - 16px); /* Ajusta a largura para caber 4 cartas por linha */
-    max-width: 300px; /* Limite para telas maiores */
+    width: calc(25% - 24px); /* Mantém quatro cartas por linha */
+    max-width: 300px;
     height: auto;
     position: relative;
-}
+    margin-bottom: 24px; /* Espaçamento extra abaixo de cada carta */
+  }
   /* Imagem do cartaz */
   .poster img {
     width: 100%;
