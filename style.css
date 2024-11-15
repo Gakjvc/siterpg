@@ -26,7 +26,7 @@
   .gallery {
   display: flex;
   flex-wrap: wrap; 
-  gap: 100px; /* Aumentar o espaçamento entre as cartas */
+  gap: 400px; /* Aumentar o espaçamento entre as cartas */
   padding: 20px;
   max-width: 1200px;
   margin: auto;
