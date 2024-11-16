@@ -4,19 +4,6 @@
     --cards : white;
 }
 
-/* Adaptar para telas menores (mobile) */
-@media (max-width: 768px) {
-    .responsive-iframe {
-        height: 100vh;
-    }
-}
-
-/* Estilos para telas maiores (desktop) */
-@media (min-width: 769px) {
-    .responsive-iframe {
-        height: 600px;
-    }
-}
 .presentation{
     justify-content: center;
     max-width: fit-content;
@@ -41,6 +28,12 @@
     .poster {
       width: calc(50% - 16px); /* Ajusta para 2 cartas por linha em telas menores */
     }
+    .materials {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .material {
+      width: calc(50% - 16px); /* Ajusta para 2 cartas por linha em telas menores */
+    }
   }
 
   @media (max-width: 480px) {
@@ -48,6 +41,12 @@
       grid-template-columns: 1fr; /* Uma coluna em telas bem pequenas */
     }
     .poster {
+      width: 100%; /* Uma carta por linha em telas bem pequenas */
+    }
+    .materials {
+      grid-template-columns: 1fr; /* Uma coluna em telas bem pequenas */
+    }
+    .material {
       width: 100%; /* Uma carta por linha em telas bem pequenas */
     }
   }
