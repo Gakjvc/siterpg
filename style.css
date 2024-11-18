@@ -19,6 +19,15 @@
   max-width: 1200px;
   margin: auto;
   }
+  .materials{
+    display: grid;
+    gap: 16px;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+    place-items: center;
+  }
 
   /* Ajuste para dispositivos móveis */
   @media (max-width: 768px) {
@@ -156,15 +165,6 @@
     text-align: center;
   }
   
-  .materials{
-    display: grid;
-    gap: 16px;
-    grid-template-columns: repeat(5, 1fr);
-    padding: 20px;
-    max-width: 1200px;
-    margin: auto;
-    place-items: center;
-  }
   .material:hover {
     transform: scale(1.05);
   }
