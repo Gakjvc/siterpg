@@ -135,7 +135,6 @@
 .progress-bar {
     height: 30px;
     background: #4caf50;
-    width: 0%;
     transition: width 0.3s ease;
 }
 .progress-text {
