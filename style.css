@@ -115,6 +115,24 @@
     transform: rotateY(180deg); /* Rotaciona o verso 180 graus */
     bottom: 520px;
   }
+  
+  .progress-container {
+    width: 80%;
+    background: #e0e0e0;
+    border-radius: 25px;
+    overflow: hidden;
+    margin: 20px 0;
+}
+.progress-bar {
+    height: 30px;
+    background: #4caf50;
+    width: 0%;
+    transition: width 0.3s ease;
+}
+.progress-text {
+    text-align: center;
+    margin-top: 10px;
+}
 
   /* Classe para girar o cartaz */
   .flipped .poster-inner {
