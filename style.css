@@ -119,15 +119,15 @@
   .xp-bar{
     justify-items: center;
     position: absolute;
-    bottom: 10px;
+    bottom: 0px;
   }
 
   .progress-container {
     position: absolute;
-    bottom: 10px;
+    bottom: 0px;
     width: 270px;
     background: #e0e0e0;
-    border-radius: 25px;
+    border-radius: 5px;
     overflow: hidden;
     margin: 20px 0;
     left: 2px;
@@ -140,6 +140,7 @@
 .progress-text {
     text-align: center;
     margin-top: 10px;
+    margin-bottom: 3px;
 }
 
   /* Classe para girar o cartaz */
