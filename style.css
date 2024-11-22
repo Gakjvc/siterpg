@@ -115,8 +115,16 @@
     transform: rotateY(180deg); /* Rotaciona o verso 180 graus */
     bottom: 520px;
   }
-  
+
+  .xp-bar{
+    justify-items: center;
+    position: absolute;
+    bottom: 10px;
+  }
+
   .progress-container {
+    position: absolute;
+    bottom: 10px;
     width: 80%;
     background: #e0e0e0;
     border-radius: 25px;
