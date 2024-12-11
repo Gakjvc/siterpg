@@ -70,6 +70,7 @@ codigo = ("""
             """).format(id = id,nome = nome,descricao = descricao,nivel = nivel,classe = classe,raca = raca,alinhamento = alinhamento)
 
 codigo_final = codigo + percode +  ("""
+            <button class="flip-btn" onclick="flipCard(this)">⟳</button>
             <!-- Fim do cartaz {id} -->
             </div>""").format(id = id)
 clipboard.copy(codigo_final)
