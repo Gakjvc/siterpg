@@ -154,6 +154,7 @@
   font-weight: normal;
   padding-right: 10px;
   flex-direction: row-reverse;
+  overflow: visible;
 }
 
   /* Classe para girar o cartaz */
