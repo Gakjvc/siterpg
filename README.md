@@ -11,7 +11,7 @@ There is also a .py file to create new characters, generating the bulk of the ad
 Um site (inicialmente) pequeno feito para um jogo de RPG de mesa
 
 Esse site serve como um menu principal para os jogadores e o mestre, checando o progresso dos personagens e da campanha.
-Contém também material complementar, como os livros oficais dos sistema.
+Contém também material complementar, como os livros oficais dos sistemas.
 
 Tudo isso na estética de uma guilda medieval no sistema de D&D, feito da forma mais diegética possível (como um painel 
 real de uma guilda no universo)
